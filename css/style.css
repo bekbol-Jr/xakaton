@@ -314,13 +314,19 @@ body {
 }
 #menu-pizza .menu-pizza__items {
   padding-top: 50px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 #menu-pizza .menu-pizza__items__groups {
+  width: 20%;
   padding: 10px;
   background: white;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
   position: relative;
+  margin: 50px 15px;
 }
 #menu-pizza .menu-pizza__items__groups__img {
   position: absolute;
@@ -335,8 +341,8 @@ body {
   height: 50px;
   border-radius: 50%;
   background: #FF7A00;
-  left: 13%;
-  top: -40px;
+  left: 70%;
+  top: -45px;
 }
 #menu-pizza .menu-pizza__items__groups__new__text {
   display: flex;
